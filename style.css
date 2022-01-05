@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: 1200px;
+    background-color: yellow;
+}
+
+.container {
+
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 850px;
+}
+
+.text {
+
+    text-align: left;
+    border: solid red;
+    width: 600px;
+    font-family: 'Abel', sans-serif;
+}
+
+.image1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+
+.image2 {
+    position: absolute;
+    top: 100px;
+    left: 850px;
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+}
