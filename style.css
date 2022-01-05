@@ -5,23 +5,25 @@ body {
     padding: 0px;
     margin: 0px;
     background: 1200px;
-    background-color: yellow;
+
 }
 
 .container {
 
-    background-color: red;
     position: absolute;
     top: 100px;
     left: 850px;
+
 }
 
-.text {
-
+.text2 {
+    position: absolute;
+    top: 300px;
+    left: 850px;
     text-align: left;
-    border: solid red;
     width: 600px;
     font-family: 'Abel', sans-serif;
+    color: white;
 }
 
 .image1 {
@@ -38,4 +40,3 @@ body {
     display: flex;
     justify-content: flex-end;
     width: 400px;
-}
