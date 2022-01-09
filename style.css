@@ -1,42 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
 
 body {
-    padding: 0px;
-    margin: 0px;
-    background: 1200px;
-
-}
-
-.container {
-
-    position: absolute;
-    top: 100px;
-    left: 850px;
-
-}
-
-.text2 {
-    position: absolute;
-    top: 300px;
-    left: 850px;
-    text-align: left;
-    width: 600px;
+    margin: 50px 0 0 0;
     font-family: 'Abel', sans-serif;
-    color: white;
 }
 
-.image1 {
+
+.wrapper {
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto 0 auto;
+    background-image: url(images/coco.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* div met de classnaam inhoud */
+.inhoud {
+    padding-left: 600px;
+    padding-right: 50px;
+}
+
+/* logo - alle afbeeldingen in de div met de classnaam inhoud */
+.inhoud img {
+    width: 300px;
+    margin-left: 1px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+/* alle h1's in de div met de classnaam inhoud */
+.inhoud h1 {
+    color: #FFF;
+    font-weight: normal;
+}
+
+/* alle p's in de div met de classnaam inhoud */
+.inhoud p {
+    color: #FFF;
+}
+
+/* knop */
+.inhoud a {
     position: relative;
-    top: 0px;
-    left: 0px;
-
+    float: left;
+    background-color: #f38030;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.image2 {
-    position: absolute;
-    top: 100px;
-    left: 850px;
-    display: flex;
-    justify-content: flex-end;
-    width: 400px;
+/* hover effect wanneer er met de muis over de knop wordt gegaan */
+.inhoud a:hover {
+    background-color: #FFF;
+    color: #f38030;
+}
